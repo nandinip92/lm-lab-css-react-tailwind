@@ -38,6 +38,7 @@ export const Card: React.FC<IProperty> = ({
       <PropertyDetails details={property_type} />
       <PropertyDetails details={description} />
       <PropertyDetails details={bedroom_count} />
+      <PropertyDetails details={bathroom_count} />
       <PropertyDetails details={price} />
 
       {/* <p>{location}</p>
